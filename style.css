@@ -1,0 +1,182 @@
+@charset "UFT-8";
+
+@font-face {
+    font-family: 'idroid'; /* Dê um nome para a sua fonte */
+    src: url('idroid/IDroid.otf') 
+    format('opentype'); 
+    font-weight: normal;
+    font-display: normal;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+  }
+
+body{
+    background-color: #7bddc8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+}
+#container-header {
+    text-align: center;
+    padding: 15px;
+    background-image: linear-gradient(to bottom,#34c4a4,#316b5e);
+    color: white;
+    min-height: 100px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.37);
+    }
+    
+    #container-header h1{
+        text-shadow: 5px 5px 13px black;
+        margin: 0;
+        
+    }
+    #container-header p{
+        text-shadow: 5px 5px 13px black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   
+   
+    #container-header li{
+        
+        list-style-type: none;
+
+        }
+        .container-list  ul{
+            display: flex;
+            gap: 15px;
+            font-weight: bold;
+            
+                
+                }
+            .container-list  li:hover{
+                text-decoration: underline;
+                background-color: #25836e;
+                color:goldenrod;
+                transition-duration: 0.5s;
+                
+                
+                
+            }
+
+    main{
+        background-color: white;
+        padding: 10px;
+        max-width: 800px;
+        margin: auto;
+        min-width: px;
+        max-width: px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
+        margin-bottom: 15px;
+        border-bottom-left-radius:10px;
+        border-bottom-right-radius:10px;
+        
+        
+        
+        
+        }
+        main h1{
+            font-size: 30px;
+            margin: 0;
+            font-family: idroid,Arial, Helvetica, sans-serif;
+            color: #377A6C;
+            
+        }
+        main h2{
+            margin: 0;
+            
+        }
+        a{
+            text-decoration: none;
+        }
+        span{
+            color: #25836e;
+            font-weight: bold;
+            
+        }
+            span:hover{
+                text-decoration: underline;
+                color: #113a31;
+                }
+            main .container-image{
+                display: block;
+                align-items: center;
+                margin: auto;
+                text-align: center;
+                max-width: 350px;
+                
+            }
+            main .container-tittle{
+                color: #377A6C;
+                font-family: idroid,Arial, Helvetica, sans-serif;
+                padding: 10px;
+                background-image: linear-gradient(to right,#b1e6be,#ffffff);
+                 
+            }
+            main  p{
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 10px;
+                text-indent: 30px;
+                margin: 10px 0px;
+                text-align: justify;
+                line-height: 1.5em;
+            
+            }      
+            figure{
+                position: relative;
+                width: 200px; /* Proporção 16:9, ajuste conforme necessário para a proporção do seu vídeo */
+                display: block;
+                overflow: hidden;
+                border: 5px solid green;
+                margin:  auto;
+                height: 100%;
+                }
+      
+            div.video{
+                background-color: #113a31;
+                margin: 0px -10.5px 10px -10.5px;
+                padding: 10px;
+                padding-bottom:59% ;
+                position: relative;
+            }
+            div.video > iframe{
+                position: absolute;
+                top: 5%;
+                left: 5%;
+                width: 90%;
+                height: 90%;
+
+
+            }
+
+
+    aside{
+        background-color: rgb(134, 221, 126);
+        border-radius: 10px;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.397);
+    }
+    aside > h4{
+       
+        color: white;
+        background-color: rgb(73, 184, 73);
+        font-weight: bold;
+        margin: auto;
+        padding: 15px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    aside > ul{
+        list-style-position: inside;
+        columns:2;
+        padding: 10px;
+    }
+
+    footer{
+        background-color: green;
+        text-align: center;
+        color: white;
+        padding: 1px;
+        margin: 0;
+        border: 0;
+        
+    }

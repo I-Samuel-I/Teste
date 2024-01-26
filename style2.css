@@ -1,0 +1,21 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    
+}
+.container {
+  background-image: url('../Modulo2/Astronauta/espaco.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  
+}
+img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+   
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
